@@ -17,6 +17,11 @@
     ".": "./src/index.ts",
     "./package.json": "./package.json"
   },
+  "config": {
+    "janus-idp": {
+      "disabled": true
+    }
+  },
   "scripts": {
     "build": "backstage-cli package build",
     "lint": "backstage-cli package lint",

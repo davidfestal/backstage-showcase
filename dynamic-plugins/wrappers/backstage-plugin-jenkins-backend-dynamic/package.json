@@ -13,6 +13,11 @@
   "backstage": {
     "role": "backend-plugin"
   },
+  "config": {
+    "janus-idp": {
+      "disabled": true
+    }
+  },
   "exports": {
     ".": "./src/index.ts",
     "./package.json": "./package.json"
